@@ -1,0 +1,50 @@
+import {
+  NumberField,
+  TextAreaField,
+  InputField,
+  CheckboxField,
+  CheckboxGroupField,
+  RateField,
+  SelectField,
+  CascaderField,
+  UploadField,
+  CascaderFieldComplex,
+  RadioGroupField,
+  RangePickerField,
+  DatePickerField,
+  SearchField,
+  SlotField,
+  SwitchField,
+  InputOptField,
+  MentionsField,
+  FormListField,
+  ColorPicker,
+  InputPasswordField
+} from './dynamic-form/fields';
+
+export const FieldTypeComponent = {
+  upload: UploadField,
+  range: RangePickerField,
+  date: DatePickerField,
+  number: NumberField,
+  opt: InputOptField,
+  rate: RateField,
+  password: InputPasswordField,
+  textarea: TextAreaField,
+  text: InputField,
+  checkbox: CheckboxField,
+  checkboxGroup: CheckboxGroupField,
+  select: SelectField,
+  radioGroup: RadioGroupField,
+  cascader: CascaderField,
+  cascaderComplex: CascaderFieldComplex,
+  search: SearchField,
+  slot: SlotField,
+  extend: SlotField,
+  mention: MentionsField,
+  formList: FormListField,
+  switch: SwitchField,
+  color: ColorPicker
+};
+
+// export const fetchFormComponents = () => FieldTypeComponent;
